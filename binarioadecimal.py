@@ -1,6 +1,5 @@
 v = 0
 i = 0
-
 def binDec():
     n=int(input("Ingrese el numero binario a transformar\n"))
     print('El numero binario',n,end=' ')
