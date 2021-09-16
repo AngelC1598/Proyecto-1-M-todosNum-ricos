@@ -1,4 +1,9 @@
 from os import system
+from decimalabinario import decBin
+from binarioadecimal import binDec
+from binarioahex import binHex
+from hexabinario import hexaDec
+
 
 print("Bienvenido a la calculadora binaria")
 input()
@@ -12,15 +17,19 @@ while menu != 6:
     input()
 
     if menu == 1:
+        decBin()
         input()
         system("cls")
     elif menu == 2:
+        binDec()
         input()
         system("cls")
     elif menu == 3:
+        binHex()
         input()
         system("cls")
     elif menu == 4:
+        hexaDec()
         input()
         system("cls")    
     elif menu == 5:
